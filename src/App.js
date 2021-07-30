@@ -4,7 +4,8 @@ import Tmdb from './Tmdb';
 import MoviewRow from './Components/MovieRow';
 import FeatureMovie from './Components/FeatureMovie';
 import Header from './Components/Header';
-export default() =>{
+
+export default () =>{
 
   const [movieList, setMovieList] = useState([]);
   const [featureData, setFeatureData] = useState(null);
